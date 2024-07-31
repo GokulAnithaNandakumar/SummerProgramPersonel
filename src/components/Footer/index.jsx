@@ -54,11 +54,7 @@ const Footer = () => {
                 <FontAwesomeIcon icon={faYoutube} size="2x" />
               </a>
             </li>
-            <li>
-            <a href="mailto:someone@example.com" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faEnvelope} size="2x" />
-              </a>
-            </li>
+
           </ul>
         </div>
         <div className="clearfix"></div>
