@@ -13,13 +13,17 @@ body {
   color: var(--white);
   max-width: 100vw !important;
   overflow-x: hidden !important;
+  cursor: url('../src/common/Images/img.png'), auto; /* Set custom cursor icon */
+}
+
+* {
+  cursor: url('../src/common/Images/img.png'), auto; /* Set custom cursor icon */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
 
 @media all and (max-width: 767px) { 
   html, body {
