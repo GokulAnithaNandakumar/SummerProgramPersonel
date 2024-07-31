@@ -1,0 +1,28 @@
+@import './common/Styles/Fonts/fonts.css';
+@import './common/Styles/variables.css';
+@import './common/Styles/commonClasses.css';
+@import './common/Styles/animations.css';
+
+body {
+  margin: 0;
+  font-family: Gilroy, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  background-color: var(--bg-black);
+  color: var(--white);
+  max-width: 100vw !important;
+  overflow-x: hidden !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@media all and (max-width: 767px) { 
+  html, body {
+    overflow-x: hidden;
+  }
+}

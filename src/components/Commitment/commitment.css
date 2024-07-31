@@ -1,0 +1,5 @@
+.commitment {
+    background-color: var(--bg-red);
+    background-image: linear-gradient(180deg, var(--bg-gradient-black1), var(--bg-gradient-black2)), url('../../common/Images/commitment.jpg');
+    overflow-x: hidden;
+}

@@ -1,0 +1,137 @@
+.footer {
+  width: 110%;
+  background-color: var(--bg-black);
+  border-top: solid 1px var(--bg-gray);
+  padding-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer .col {
+  width: 190px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.footer .projects-col {
+  width: 50%;
+}
+
+.footer .col h1 {
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 16px;
+  color: var(--white);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer .col ul li {
+  color: #999999;
+  font-size: 16px;
+  padding: 5px 0;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.footer .col ul li a {
+  text-decoration: none;
+  color: #999999;
+  font-size: 16px;
+  padding: 5px 0;
+  cursor: pointer;
+  transition: color 0.2s;
+  display: inline-block;
+  width: 100%;
+}
+
+.footer .col ul li a:hover {
+  color: #ffffff;
+}
+
+.footer .projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer .projects-column {
+  width: 48%;
+}
+
+.footer .social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.footer .clearfix {
+  clear: both;
+}
+
+@media only screen and (max-width: 950px) {
+  .footer .col {
+    width: 30%;
+  }
+  .footer .projects-col {
+    width: 40%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li,
+  .footer .col ul li a {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .footer .col,
+  .footer .projects-col {
+    width: 100%;
+  }
+  .footer .projects-grid {
+    flex-direction: column;
+  }
+  .footer .projects-column {
+    width: 100%;
+  }
+  .footer .col h1 {
+    font-size: 16px;
+  }
+  .footer .col ul li,
+  .footer .col ul li a {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer .col ul li,
+  .footer .col ul li a {
+    font-size: 14px;
+  }
+  .footer .projects-grid {
+    flex-direction: column;
+  }
+  .footer .projects-column {
+    width: 100%;
+  }
+}

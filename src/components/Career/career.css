@@ -1,0 +1,10 @@
+.car {
+    min-height: 100vh;
+    padding-top: 5rem;
+}
+
+.car h1{
+    font-weight: 700;
+    font-size: 9rem;
+    text-align: center;
+}

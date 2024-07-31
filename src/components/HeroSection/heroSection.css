@@ -1,0 +1,134 @@
+:root {
+    --cursor-size: 0px; /* default to 0 */
+    --cursor-x: 0px;
+    --cursor-y: 0px;
+}
+
+.hero-section-wrapper {
+    position: relative;
+}
+
+.hero-section {
+    min-height: 50vh;
+    text-align: center;
+    position: relative;
+}
+
+.main-container {
+    width: 96%;
+    height: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative; /* Make sure main-container is positioned relative */
+}
+
+.hero-heading {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.hero-sub-heading {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 38px;
+    margin: 2rem 0px;
+}
+
+.hero-claim-label {
+    background-color: var(--bg-gray);
+    width: 100%;
+    position: absolute;
+    height: 72px;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.claim-anchor {
+    color: var(--link-blue);
+    margin-left: 17px;
+    cursor: pointer;
+}
+
+.claim-anchor a {
+    color: var(--link-blue);
+    text-decoration: none;
+}
+
+.layer {
+    position: absolute;
+}
+
+.layer-white {
+    background-color: var(--white);
+    mask: url("./text-mask.svg");
+    -webkit-mask: url("./text-mask.svg");
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: var(--cursor-x) var(--cursor-y);
+    -webkit-mask-position: var(--cursor-x) var(--cursor-y);
+    mask-size: var(--cursor-size);
+    -webkit-mask-size: var(--cursor-size);
+    pointer-events: none;
+    transition-duration: 100ms;
+    transition-timing-function: ease;
+    cursor: default;
+}
+
+.mask-visible {
+    mask-size: var(--cursor-size);
+    -webkit-mask-size: var(--cursor-size);
+}
+
+.mask-top-left {
+    mask-position: -10px -10px;
+    -webkit-mask-position: -30px -30px;
+    mask-size: 32px;
+    -webkit-mask-size: 32px;
+}
+
+.hero-sub-heading-black {
+    color: var(--bg-black);
+    margin: 2rem 40px;
+}
+
+@media all and (max-width: 1279px) {
+    .hero-heading {
+        font-size: 82px;
+        line-height: 92px;
+    }
+
+    .hero-sub-heading {
+        font-size: 25px;
+    }
+
+    .claim-anchor {
+        margin-left: 0px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .hero-section {
+        align-items: flex-start;
+        text-align: left;
+        min-height: 70vh;
+    }
+    .hero-heading {
+        font-size: 55px;
+        line-height: 47.5px;
+        width: 270px;
+        margin-top: 60px;
+    }
+
+    .hero-sub-heading {
+        font-size: 16px;
+        line-height: 22px;
+        margin: 35px 0px;
+    }
+
+    .hero-claim-label {
+        height: 55px;
+        font-size: 13px;
+        flex-direction: column;
+    }
+}
