@@ -13,7 +13,7 @@ const Footer = () => {
           <h1>SUMMER PROGRAM'24</h1>
           <ul>
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/services">Projects</Link></li>
+            <li><Link to="/projects">Projects</Link></li>
           </ul>
         </div>
         <div className="col projects-col">
@@ -21,18 +21,17 @@ const Footer = () => {
           <div className="projects-grid">
             <div className="projects-column">
               <ul>
-                <li><Link to="/services">ExamPaper Hub</Link></li>
-                <li><Link to="/services">Event Hub</Link></li>
-                <li><Link to="/services">Quiz bot</Link></li>
-                <li><Link to="/services">FAQ Chatbot</Link></li>
+                <li><Link to="/projects/exam-paper-hub">ExamPaper Hub</Link></li>
+                <li><Link to="/projects/faq-chatbot">FAQ Chatbot</Link></li>
+                <li><Link to="/projects/quiz-bot">Quiz bot</Link></li>
+                <li><Link to="/projects/plantease">PlantEase</Link></li>
               </ul>
             </div>
             <div className="projects-column">
               <ul>
-                <li><Link to="/services">Attendance App</Link></li>
-                <li><Link to="/services">PlantEase</Link></li>
-                <li><Link to="/services">Smart Menu</Link></li>
-                <li><Link to="/services">VIT PL Portal</Link></li>
+                <li><Link to="/projects/attendance-app">Attendance App</Link></li>
+                <li><Link to="/projects/event-hub">Event Hub</Link></li>
+                <li><Link to="/projects/vit-pl-portal">VIT PL Portal</Link></li>
               </ul>
             </div>
           </div>

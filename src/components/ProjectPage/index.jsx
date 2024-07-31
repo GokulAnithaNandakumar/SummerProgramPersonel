@@ -20,7 +20,7 @@ const ProjectPage = () => {
     
     <div id="sub_main">
     <div id="main_container">
-      <Link to="/" className="">
+      <Link to="/projects" className="">
         <FaArrowLeft className="back-icon" />
       </Link>
       <div id="heading">
