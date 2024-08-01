@@ -51,37 +51,43 @@ const serviceData = [
 
 function Services() {
   return (
-    <div>
-      <section id="advertisers" className="advertisers-service-sec pt-5 pb-5 max-width">
-        <div className="container">
-          <div className="row">
-            <div className="section-header text-center">
-              <h2 className="fw-bold fs-1">
-                Projects
-              </h2>
-              <p className="sec-icon">
-                <FontAwesomeIcon icon={faGear} />
-              </p>
-            </div>
-          </div>
-          <div className="row mt-5 mt-md-4 justify-content-center">
-            {serviceData.map((service, index) => (
-              <div className="col col-sm-12 col-md-6 col-lg-4" key={index}>
-                <Link to={service.link} className="text-decoration-none text-dark">
-                  <div className="service-card">
-                    <div className="icon-wrapper">
-                      <FontAwesomeIcon icon={service.icon} />
+
+      <div>
+   <section id="advertisers" className="advertisers-service-sec pt-5 pb-5 max-width">
+    
+       <div className="container">
+           <div className="row">
+             <div className="section-header">
+               <h2 className="fw-bold">
+                 Projects
+               </h2>
+               <p className="sec-icon">
+                 <FontAwesomeIcon icon={faGear} />
+               </p>
+             </div>
+         <div className="row mt-5 mt-md-4 row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-3 justify-content-center">
+             {serviceData.map((service, index) => (
+                 <Link to={service.link} className="text-decoration-none text-dark">
+                   <div className="col" key={index}>
+                      <div className="service-card">
+                        <div className="icon-wrapper">
+                          <FontAwesomeIcon icon={service.icon} />
+                        </div>
+                        <h3>{service.title}</h3>
+                        <p>
+                          {service.description}
+                        </p>
+                      </div>
                     </div>
-                    <h3>{service.title}</h3>
-                    <p>{service.description}</p>
-                  </div>
-                </Link>
-              </div>
-            ))}
-          </div>
+                 </Link>
+             ))}
+             </div>
+           </div> 
         </div>
-      </section>
+
+    </section>
     </div>
+
   );
 }
 

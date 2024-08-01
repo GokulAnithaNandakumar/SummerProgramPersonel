@@ -4,6 +4,15 @@ body {
   
   .back-icon {
     color: white;
+    padding: 7px;
+    border-radius: 50%;
+
+    transition: all 0.2s;
+  }
+
+  .back-icon:hover {
+    color: black;
+    background-color: #f1f1f1;
   }
   
   #sub_main {
