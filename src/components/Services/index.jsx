@@ -77,6 +77,7 @@ function Services() {
   return (
     <>
       <div className='container'>
+        <h1 className='section-title'>Our Projects</h1>
         <div className='card-category-1'>
           {serviceData.map((data, index) => (
             <Card key={index} {...data} />
