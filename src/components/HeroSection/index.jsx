@@ -51,7 +51,7 @@ const HeroSection = () => {
                     </div>
                     <div className={`layer layer-white ${isCursorInside ? 'mask-visible' : 'mask-top-left'}`}>
                         <div className='hero-sub-heading hero-sub-heading-black'>
-                            SP'24 at IET-VIT - the ultimate trick to ensure nobody wastes their summer on boring things like vacation or enjoyment! With the <b>TFD</b> leads watching every move, anything remotely resembling fun is a no go! Who needs downtime when you can juggle deadlines and frequent meetings? <b>The main takeaway</b>: becoming pros at sleep deprivation and running on <b>TEA</b>🫖!!
+                            SP'24 at IET-VIT - the ultimate trick to ensure nobody wastes their summer on boring things like vacation or enjoyment! With the <b>TFD</b> leads watching every move, anything remotely resembling fun is a no go! Who needs downtime when you can juggle deadlines and frequent meetings? <b>The main takeaway</b>: becoming pros at sleep deprivation and running on <b>CHAI</b>🫖!!
                         </div>
                     </div>
                 </div>
