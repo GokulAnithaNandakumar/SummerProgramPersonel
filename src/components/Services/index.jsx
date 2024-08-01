@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChartLine, faArrowsDownToPeople, faGlobe, faMoneyCheckDollar, faCircleCheck, faPeopleGroup, faGear } from '@fortawesome/free-solid-svg-icons';
 import "./services.css";
 
+
 const serviceData = [
   {
     icon: faCircleCheck,
