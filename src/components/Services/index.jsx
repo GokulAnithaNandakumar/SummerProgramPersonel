@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChartLine, faArrowsDownToPeople, faGlobe, faMoneyCheckDollar, faCircleCheck, faPeopleGroup, faGear } from '@fortawesome/free-solid-svg-icons';
+import { faChartLine, faArrowsDownToPeople, faGlobe, faMoneyCheckDollar, faCircleCheck, faPeopleGroup, faGear, faTree } from '@fortawesome/free-solid-svg-icons';
 import "./services.css";
-
 
 const serviceData = [
   {
@@ -33,11 +32,11 @@ const serviceData = [
   {
     icon: faArrowsDownToPeople,
     title: "Event Hub",
-    description: "A platform for all VIT clubs and chapters to promote and manage their events and activities.",
+    description: "A platform for all VIT clubs and chapters to promote and manage their events.",
     link: "/projects/event-hub"
   },
   {
-    icon: faPeopleGroup,
+    icon: faTree,
     title: "PlantEase",
     description: "An E-Commerce Web application for plant related products with AI functionalities.",
     link: "/projects/plantease"
@@ -50,45 +49,42 @@ const serviceData = [
   }
 ];
 
+function Card({ icon, title, description, link }) {
+  return (
+    <Link to={link} className="card">
+          <div class="basic-card basic-card-dark">
+                <div class="card-icon">
+                    <FontAwesomeIcon icon={icon} />
+                </div>
+                <div class="card-content">
+
+                    <span class="card-title">{title}</span>
+                    <p class="card-text">
+                        {description}
+                    </p>
+                </div>
+
+                <div class="card-link">
+                    <a href={link} title="Read Full">Know More</a>
+                </div>
+            </div>
+
+    </Link>
+  );
+}
+
 function Services() {
   return (
-
-      <div>
-   <section id="advertisers" className="advertisers-service-sec pt-5 pb-5 max-width">
-    
-       <div className="container">
-           <div className="row">
-             <div className="section-header">
-               <h2 className="fw-bold">
-                 Projects
-               </h2>
-               <p className="sec-icon">
-                 <FontAwesomeIcon icon={faGear} />
-               </p>
-             </div>
-         <div className="row mt-5 mt-md-4 row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-3 justify-content-center">
-             {serviceData.map((service, index) => (
-                 <Link to={service.link} className="text-decoration-none text-dark">
-                   <div className="col" key={index}>
-                      <div className="service-card">
-                        <div className="icon-wrapper">
-                          <FontAwesomeIcon icon={service.icon} />
-                        </div>
-                        <h3>{service.title}</h3>
-                        <p>
-                          {service.description}
-                        </p>
-                      </div>
-                    </div>
-                 </Link>
-             ))}
-             </div>
-           </div> 
+    <>
+      <div className='container'>
+        <h1 className='section-title'>Our Projects</h1>
+        <div className='card-category-1'>
+          {serviceData.map((data, index) => (
+            <Card key={index} {...data} />
+          ))}
         </div>
-
-    </section>
-    </div>
-
+      </div>
+    </>
   );
 }
 
