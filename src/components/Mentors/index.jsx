@@ -1,5 +1,6 @@
 import React from 'react'
 import './style.css'
+import me4 from './me4.png'
 
 const Mentors = () => {
   return (
@@ -11,7 +12,7 @@ const Mentors = () => {
       <div class="mentors">
       <div class="mentors-box">
         <div class="imgBx">
-          <img src="https://i.ibb.co/x1Gth6s/team-1.jpg" alt="" />
+          <img src="" alt="" />
         </div>
         <div class="card-footer">
           <h3>Vijay Varadarajan</h3>
@@ -21,7 +22,7 @@ const Mentors = () => {
       
       <div class="mentors-box">
         <div class="imgBx">
-          <img src="https://i.ibb.co/VNnNB0P/team-2.jpg" alt="" />
+          <img src={me4} alt="" />
         </div>
         <div class="card-footer">
           <h3>A N Gokul</h3>
