@@ -1,6 +1,7 @@
 import React from 'react'
 import './style.css'
 import me4 from './me4.png'
+import goutham from './goutham.png'
 
 const Mentors = () => {
   return (
@@ -42,7 +43,7 @@ const Mentors = () => {
       
       <div class="mentors-box">
         <div class="imgBx">
-          <img src="https://i.ibb.co/jGcmRHP/team-4.jpg" alt="" />
+          <img src={goutham} alt="" />
         </div>
         <div class="card-footer">
           <h3>Goutham Kurapati</h3>
