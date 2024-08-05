@@ -42,18 +42,18 @@ const ProjectPage = () => {
 
       <div id="team">
             <h2>Team</h2>
-        
-        
           <div className="team-container">
             {project.teamMembers.map((member, index) => (
-              <div className="box" key={index}> 
-                <div className="content">
-                  <div className="initials">
-                    {member.split(' ').map(name => name[0]).join('')}
+              <a href={project.memberLinks[index]} className='member-link' target="_blank" rel="noopener noreferrer">
+                <div className="box" key={index}> 
+                  <div className="content">
+                    <div className="initials">
+                      {member.split(' ').map(name => name[0]).join('')}
+                    </div>
+                      <strong>{member}</strong>
                   </div>
-                  <strong>{member}</strong>
                 </div>
-              </div>
+              </a>
             ))}
           </div>
         </div>
