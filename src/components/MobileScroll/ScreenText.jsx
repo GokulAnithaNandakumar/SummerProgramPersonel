@@ -38,7 +38,7 @@ const ScreenText = ({ screen, i, setCurrentImg }) => {
         </div>
         <div className="mobile-mockup-wrapper only-mobile">
           <div className="mobile-mockup">
-            <div className="mobile-mockup-screen flex absolute-center">
+            <div className="mobile-mockup-screen flex">
               <img src={screen.mobile_img} alt="" className='mobile-screen-img' key={screen.mobile_img} />
             </div>
           </div>
