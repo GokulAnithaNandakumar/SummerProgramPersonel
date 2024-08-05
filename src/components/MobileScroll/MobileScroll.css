@@ -68,18 +68,32 @@
 }
 
 @media all and (max-width: 767px) {
+
+    .scroll-full-screen {
+        min-height: fit-content; 
+    }
+
+    .mobile-screen { 
+        padding-top: 60px;
+    }
+
     .screen-heading {
         font-size: 50px;
         line-height: 50px;
+        width: 100vw;
+        text-align: center;
     }
 
     .mobile.mockup-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 100%;
     }
 
     .mobile-screen-img {
-        width: 80%;
-        height: 80%;
+        width: 65%;
+        height: 100%;
         margin-top: 30px;
     }
 
@@ -90,13 +104,13 @@
 
     .screen-description {
         font-size: 18px;
-        margin-top: 20px;
-        text-align: left;
+        text-align: center;
         min-width: 95vw;
+        margin-right: 20px;
     }
 
     .mobile-mockup {
-        height: 320px;
+        height: 200px;
     }
 
 }
