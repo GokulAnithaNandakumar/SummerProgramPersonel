@@ -8,3 +8,34 @@
 .photo-section-description {
     margin-top: 10px !important;
 }
+
+@media all and (max-width: 1279px) {
+    .community {
+        margin-bottom: 20px;
+        padding-bottom: 10px !important;
+    }
+
+    .screen-description {
+        font-size: 18px;
+        margin-top: 44px;
+    }
+
+    .photo-section {
+        min-height: fit-content;
+    }
+}
+
+@media all and (max-width: 767px) { 
+    .community {
+        padding-bottom: 20px !important;
+        margin-top: 10rem !important;
+    }
+
+    .photo-section {
+        min-height: fit-content !important;
+    }
+
+    .photo-section-child {
+        padding-bottom: 0px !important;
+    }
+}
