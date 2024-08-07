@@ -5,6 +5,10 @@
     border-bottom: 6px solid var(--bg-gray);
 }
 
+.header:hover {
+    cursor: pointer;
+}
+
 .header-logo {
     height: 66px;
 }

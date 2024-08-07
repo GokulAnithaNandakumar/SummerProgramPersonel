@@ -37,6 +37,12 @@
         transform: translateY(0);
         cursor: pointer;
       }
+      .card-footer h3 {
+        cursor: pointer;
+      }
+      .card-footer h4 {
+        cursor: pointer;
+      }
   
       .imgBx {
         transform: scale(1.3);
