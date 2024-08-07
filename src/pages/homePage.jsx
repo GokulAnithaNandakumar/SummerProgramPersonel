@@ -13,7 +13,7 @@ const HomePage = () => {
   return (
     <>
       <HeroSection />
-      <ProductsShowCase />
+      {/* <ProductsShowCase /> */}
       <Community />
       {/* <BrandsLove /> */}
       <WindowPeak />
