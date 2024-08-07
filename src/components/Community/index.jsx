@@ -18,7 +18,7 @@ const Community = () => {
           </div>
           <div className='photo-section-bottom'>
             <div className='photo-section-description'>
-              The IETVIT Summer Program empowers youth to solve real-world problems, 
+              The IET-VIT Summer Program empowers youth to solve real-world problems, 
               fostering critical thinking and innovation. Through hands-on projects in healthcare, 
               environment, and technology, participants develop practical skills while addressing 
               community challenges. This initiative promotes collaboration, raises awareness, and 
