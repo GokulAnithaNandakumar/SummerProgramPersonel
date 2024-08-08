@@ -38,7 +38,10 @@ const Footer = () => {
           </div>
         </div>
         <div className="col">
-          <img src={iet_logo} alt="" />
+          <div style={{marginBottom: "30px"}}>
+            <img src={iet_logo} alt="" height="50" width="90" />
+          </div>
+
           <h1>Social</h1>
           <ul className="social-icons">
             <li>
