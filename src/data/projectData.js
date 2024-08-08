@@ -25,7 +25,7 @@ export const projectData = {
       videoUrl: "https://www.youtube.com/embed/7R8WJVBEf_Q?si=KHNJ3PoGnHcjI4cq",
       description: "A chatbot that can answer frequently asked questions about VIT. This AI-powered chatbot provides instant responses to common queries, saving time for both students and staff.",
       teamMembers: ["Luv Gupta"],
-      memberLinks: ["www.linkedin.com/in/luv-gupta1800"]
+      memberLinks: ["https://www.linkedin.com/in/luv-gupta1800"]
     },
     "attendance-app": {
       title: "Barcode Attendance Tracker App",
