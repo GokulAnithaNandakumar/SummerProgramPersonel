@@ -33,6 +33,7 @@ const Footer = () => {
                 <li><Link to="/projects/attendance-app">Attendance App</Link></li>
                 <li><Link to="/projects/event-hub">Event Hub</Link></li>
                 <li><Link to="/projects/vit-pl-portal">VIT PL Portal</Link></li>
+                <li><Link to="/projects/smart-menu">Smart Menu</Link></li>
               </ul>
             </div>
           </div>
