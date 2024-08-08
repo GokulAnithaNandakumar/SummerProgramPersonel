@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import iet_logo from "../../common/Images/iet_logo.png";
 
 const Footer = () => {
   return (
@@ -37,6 +38,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="col">
+          <img src={iet_logo} alt="" />
           <h1>Social</h1>
           <ul className="social-icons">
             <li>
