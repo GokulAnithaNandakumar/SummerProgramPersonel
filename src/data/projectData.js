@@ -31,8 +31,8 @@ export const projectData = {
       title: "Barcode Attendance Tracker App",
       videoUrl: "https://www.youtube.com/embed/R8L11ukFAHM?si=KdEjQtwPjEDUNMNp",
       description: "An app that scans Bar Codes in ID cards during events to mark student attendance. This app simplifies the attendance tracking process and ensures accurate records of student participation.",
-      teamMembers: ["Adhavan K", "Raajaprasanna M"],
-      memberLinks: ["https://www.linkedin.com/in/adhavan-k-503b8a28a", "https://www.linkedin.com/in/raajaprasanna-m-2b1348281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"],
+      teamMembers: ["Adhavan K", "Raajaprasanna M", "Saksham Thakur"],
+      memberLinks: ["https://www.linkedin.com/in/adhavan-k-503b8a28a", "https://www.linkedin.com/in/raajaprasanna-m-2b1348281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", "https://www.linkedin.com/in/saksham-thakur-892936261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"],
     },
     "plantease": {
       title: "PlantEase",
@@ -53,6 +53,6 @@ export const projectData = {
       videoUrl: "https://drive.google.com/file/d/1cNk5u9fmwpj45GTDuh0X8x7TRK65xgty/preview",
       description: "The Smart Menu System is an advanced digital solution designed to streamline the dining experience by providing customers with an interactive menu accessible via their smartphones. The system also includes an admin panel, allowing restaurant management to easily update menu items and manage orders efficiently.",
       teamMembers: ["Ram", "Maanya", "Daksh Khandelwal", "Tanvi Jain", "Aisha", "Siddharth Joshi", "Inanya Madan"],
-      memberLinks: ["", "", "", "", "", "", ""],
+      memberLinks: ["https://www.linkedin.com/in/tabjuluram?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", "https://github.com/MaanyaVenkateshan", "https://www.linkedin.com/in/daksh-khandelwal", "https://www.linkedin.com/in/tanvi-jain-91775524a/", "https://github.com/aisha0608", "https://www.linkedin.com/in/siddharth-joshi-1b1047233?trk=contact-info", "https://github.com/inanyamdn"],
     }
   };
