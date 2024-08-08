@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChartLine, faArrowsDownToPeople, faGlobe, faMoneyCheckDollar, faCircleCheck, faPeopleGroup, faGear, faTree } from '@fortawesome/free-solid-svg-icons';
+import { faChartLine, faArrowsDownToPeople, faGlobe, faMoneyCheckDollar, faCircleCheck, faPeopleGroup, faGear, faTree, faCutlery } from '@fortawesome/free-solid-svg-icons';
 import "./services.css";
 
 const serviceData = [
@@ -46,6 +46,12 @@ const serviceData = [
     title: "VIT PL Portal",
     description: "A portal for students of VIT to register and participate in VIT's Premier League games.",
     link: "/projects/vit-pl-portal"
+  },
+  {
+    icon: faCutlery,
+    title: "Smart Menu",
+    description: "A smart menu system that helps restaurants manage their menu and orders efficiently.",
+    link: "/projects/smart-menu"
   }
 ];
 

@@ -47,5 +47,12 @@ export const projectData = {
       description: "A portal for students of VIT to register and participate in VIT's Premier League games. This portal streamlines the registration process and provides updates on upcoming matches and results.",
       teamMembers: [" M.Nitin", "Divesh Gupta", "Adyant Gupta", "Dev Vijay"],
       memberLinks: ["https://github.com/Nitin1515", "https://github.com/Dsj-24", "https://github.com/aaaadigup", "https://github.com/Dev-vijay12/Dave_holder"]
+    },
+    "smart-menu": {
+      title: "Smart Menu",
+      videoUrl: "https://drive.google.com/file/d/1cNk5u9fmwpj45GTDuh0X8x7TRK65xgty/preview",
+      description: "The Smart Menu System is an advanced digital solution designed to streamline the dining experience by providing customers with an interactive menu accessible via their smartphones. The system also includes an admin panel, allowing restaurant management to easily update menu items and manage orders efficiently.",
+      teamMembers: ["Ram", "Maanya", "Daksh Khandelwal", "Tanvi Jain", "Aisha", "Siddharth Joshi", "Inanya Madan"],
+      memberLinks: ["", "", "", "", "", "", ""],
     }
   };
