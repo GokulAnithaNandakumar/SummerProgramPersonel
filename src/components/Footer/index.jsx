@@ -39,10 +39,10 @@ const Footer = () => {
         </div>
         <div className="col">
           <div style={{marginBottom: "30px"}}>
-            <img src={iet_logo} alt="" height="50" width="90" />
+            <Link to="https://ietvit.co"><img src={iet_logo} alt="" height="50" width="90" /></Link>
           </div>
 
-          <h1>Social</h1>
+          <h1>Socials</h1>
           <ul className="social-icons">
             <li>
               <a href="https://www.linkedin.com/company/ietvit/" target="_blank" rel="noopener noreferrer">
