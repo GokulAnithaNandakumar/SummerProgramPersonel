@@ -5,8 +5,12 @@
     border-bottom: 6px solid var(--bg-gray);
 }
 
+
+
 .header-logo {
     height: 66px;
+    cursor: pointer;
+    transition: opacity 0.3s;
 }
 
 .header-nav-item {
