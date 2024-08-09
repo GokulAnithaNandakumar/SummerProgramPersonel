@@ -45,7 +45,7 @@ export const projectData = {
       title: "VIT PL Portal",
       videoUrl: "https://www.youtube.com/embed/fstMVUGblGU?si=IMLIBoyJQG445UBA",
       description: "A portal for students of VIT to register and participate in VIT's Premier League games. This portal streamlines the registration process and provides updates on upcoming matches and results.",
-      teamMembers: [" M.Nitin", "Divesh Gupta", "Adyant Gupta", "Dev Vijay"],
+      teamMembers: [" M.Nitin", "Divesh Singh", "Adyant Gupta", "Dev Vijay"],
       memberLinks: ["https://www.linkedin.com/in/nitin-mutyala-627223267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", "https://www.linkedin.com/in/divesh-singh-9bb854247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app", "https://www.linkedin.com/in/adyant246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", "https://www.linkedin.com/in/dev-vijay-357073275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"]
     },
     "smart-menu": {
