@@ -4,7 +4,7 @@ export const projectData = {
       videoUrl: "https://www.youtube.com/embed/4NtMWqNXfLI?si=zFEKyDsMzEHWVj7R",
       description: "A platform for VIT students to access and download past CAT and FAT papers. This project aims to help students prepare better for their exams by providing easy access to previous year question papers.",
       teamMembers: ["Khushi Kumari", "Pragya Singh", "Adhavan K", "Daksh Dosi", "Anubhav Singh"],
-      memberLinks: ["https://www.linkedin.com/in/khushi-gupta-29ab21280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", "https://www.linkedin.com/in/pragya-singh-697a502aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", "https://www.linkedin.com/in/adhavan-k-503b8a28a", "www.linkedin.com/in/daksh-dosi", "https://linkedin.com/in/anubhav-singh-339bab28a/",]
+      memberLinks: ["https://www.linkedin.com/in/khushi-gupta-29ab21280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", "https://www.linkedin.com/in/pragya-singh-697a502aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", "https://www.linkedin.com/in/adhavan-k-503b8a28a", "https://linkedin.com/in/daksh-dosi", "https://linkedin.com/in/anubhav-singh-339bab28a/",]
     },
     "event-hub": {
       title: "Event Hub",
